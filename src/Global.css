@@ -1,0 +1,378 @@
+.nav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    width: 700px;
+    height: 54px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+
+    background: #1E242C;
+    
+    box-shadow: 9px 4px 18px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 50px 50px;
+
+    z-index: 1;
+}
+
+.buttons {
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.itemText {
+    color: white;
+    width: 78px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 12px;
+    /* or 70% */
+    
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url("./Bebas.ttf") format("trueType");
+  }
+
+
+.mask {
+    position: absolute;
+    width: 1240px;
+    height: 758px;
+    left: 100px;
+    top: 0px;
+
+    background: radial-gradient(50% 57.61% at 56.6% 39.68%, rgba(21, 26, 32, 0) 0%, #151A20 100%);
+    
+}
+
+.poster{
+    position: absolute;
+    width: 1210px;
+    height: 750px;
+    left: 130px;
+    top: 3px;
+}
+
+.miniPosterContainer {
+    position: absolute;
+    width: 265px;
+    height: 345px;
+    left: 850px;
+    top: 165px;
+    border-radius: 30px;
+}
+
+.miniPoster {
+    width: 265px;
+    height: 345px;
+    border-radius: 30px;
+}
+
+.title {
+
+    position: absolute;
+    width: 500px;
+    height: 65px;
+    left: 166px;
+    top: 170px;
+    
+    font-family: 'Bebas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 65px;
+    /* identical to box height, or 135% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+.subtitle {
+    position: absolute;
+    width: 600px;
+    height: 65px;
+    left: 120px;
+    top: 240px;
+    
+    font-family: 'Bebas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 65px;
+    /* identical to box height, or 102% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+.logo {
+
+    position: absolute;
+    left: 135px;
+    top: 190px;
+    
+}
+
+.release {
+    position: absolute;
+    width: 300px;
+    height: 65px;
+    left: 130px;
+    top: 310px;
+    
+    font-family: 'Bebas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 65px;
+
+    color: #FFC30D;
+    
+}
+
+.about {
+    position: absolute;
+    width: 522px;
+    height: 48px;
+    left: 130px;
+    top: 370px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+.cast {
+    position: absolute;
+    left: 130px;
+    top: 410px;
+    
+    font-family: 'Bebas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 65px;
+
+    color: #FFC30D;
+}
+
+.castItem {
+    
+    padding-left: 5px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+
+.infoContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 600px;
+    height: 33px;
+    left: 120px;
+    top: 475px;
+}
+
+.infoItems {
+   
+    flex: 1;
+    text-align: center;
+    font-family: 'Bebas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+    
+}
+
+.infos{
+    color: #FFC30D;
+}
+
+.watchNowBtn{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 133px;
+    top: 530px;
+    
+    /* grad1 */
+    
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(270deg, #8743FF 0%, #4136F1 100%);
+    box-shadow: 0px 15px 30px rgba(20, 102, 204, 0.16);
+    backdrop-filter: blur(30px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border: none;
+    border-radius: 13px;
+}
+
+.btnText {
+
+    width: 142px;
+    height: 12.5px;
+    left: 165px;
+    top: 538.86px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 14px;
+    /* or 100% */
+
+    color: #FFFFFF;
+}
+
+.exploreContainer { 
+    position: absolute;
+    width: 1240px;
+    height: 485px;
+    left: 71px;
+    top: 708px;
+    
+}
+
+.exploreTitle {
+
+    position: absolute;
+    padding-top: 20px;
+    margin-left: 60px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 14px;
+    /* identical to box height, or 47% */
+
+
+    color: #FFFFFF;
+}
+
+.search {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 490px;
+    height: 50px;
+    left: 50px;
+    top: 60px;
+
+    border: 1px solid #6F6F6F;
+    border-radius: 40px;
+    background-color: transparent;
+
+}
+
+input[type=text] {
+   
+    padding-left: 30px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #FFC30D;
+
+}
+
+::placeholder { 
+    color: #FFC30D;
+  }
+
+.cardsContainer {
+    overflow: hidden;
+    width: 1240px;
+    height: 360px;
+    margin-top: 120px;
+}
+
+.cards {
+    overflow: hidden;
+    display: flex; 
+    margin-top: 10px;
+    align-items: center; 
+   
+
+}
+
+.leftArrow {
+    color: #FFC30D;
+    cursor: pointer; 
+    opacity: 0.5; 
+    height: 350px;
+}
+
+.leftArrow:hover {
+    opacity: 1; 
+}
+
+.rightArrow {
+    cursor: pointer; 
+    opacity: 0.5; 
+    color: #FFC30D;
+    height: 350px;
+}
+
+.rightArrow:hover {
+    opacity: 1;
+}
+
+.card {
+    display: inline-block; 
+    padding: 0.8rem; 
+    transition-duration: 300ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    cursor: pointer; 
+    width: 220px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+
